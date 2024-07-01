@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    padding: 40px;
+    background-color:whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.inner{
+    flex-direction: column; 
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.heading{
+    flex-direction: column;
+    gap:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.h1{
+    color: black;
+}
+.btn_container{
+    gap: 15px;
+}
+.btn{
+    width: 100px; 
+    height: 30px; 
+    background-image: linear-gradient(to right,blue,rgb(16, 169, 246));
+    border-radius: 15px; 
+    color: whitesmoke; 
+    text-align: center; 
+    padding: 3px; 
+    border: none;
+    margin: 5px;
+}
+.input_container .input_class{
+    height: 50px; 
+    width: 300px; 
+    border: 2px solid rgb(175, 184, 230); 
+    border-radius: 15px; 
+    text-align: center; 
+    font-size: 15px;
+}
+.para{
+    padding: 3px;
+}
+.message{
+    background-image: linear-gradient(to right,blue ,rgb(16, 169, 246));
+    color:black; 
+    height: 100px; 
+    padding: 15px; 
+    border-radius: 5px; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
